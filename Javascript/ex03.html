@@ -1,0 +1,56 @@
+<script>
+
+
+ //undifind 자료형
+
+//1. 상수와 변수로 선언하지 않은 식별자
+//console.log(s)
+//2. 값이 없는 식별자
+
+//let s
+//console.log(s) 
+
+//문자열 입력 : promt()
+//불 입력: confirm()
+
+//prompt("메시지","디폴드값")
+
+//const a = prompt("아무거나 입력해~","")
+//console.log(a)
+
+//confirm("메시지") //확인버튼 누르면 true반환 취소버튼 누르면 false반환 
+
+//const b =confirm("메시지2")
+
+//console.log(b)
+/*
+let a = prompt("첫번쨰 숫자를 입력해 주세요")
+a=Number(a)
+//다른 자료형을 변경 하고 싶을때  자료형() 형변환을 시켜준다.
+let b = prompt("두번째 숫자를 입력해 주세요")
+b=Number(b)
+alert(`${a}+${b}=${a+b}`) //프롬포트는 무조건 문자열로 반환하기 떄문에  1020 으로 나옴
+*/
+//코드를 간단하게 하기위해서 
+
+const a = Number(prompt("첫번쨰 숫자를 입력해 주세요")) 
+const b = Number(prompt("두번째 숫자를 입력하해 주세요"))
+ alert(`${a}+${b}=${a+b}`)
+
+//Not a Number ->NaN 수자형 자료형 "애는 숫자가 아니야"
+
+//문자열 -> 숫지
+//"123"->123
+//Number("안녕하세요")
+
+//숫자->문자열 ok
+//123->"123"
+
+//불->분자열
+//String(ture)->"ture"
+//불->숫자
+//Number(true)->1
+//Number(false)->0
+
+
+</script>
